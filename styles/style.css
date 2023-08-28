@@ -72,6 +72,7 @@ nav img {
 }
 .about-text {
   width: 40%;
+  text-align: justify;
 }
 .about-image img {
   width: 300px;
@@ -82,4 +83,43 @@ nav img {
 main {
   font-size: 1.5em;
   margin-top: 50px;
+}
+.contact-btn {
+  margin-top: 20px;
+  padding: 13px 20px;
+  outline: none;
+  background-color: red;
+  border-radius: 3px;
+  border: none;
+  color: white;
+}
+.btn-div {
+  width: 500px;
+  align-items: flex-end;
+}
+
+/* Services section container */
+.services-container {
+  height: 50vh;
+  padding: 50px;
+  color: white;
+  background-image: url(/images/background.png),
+    linear-gradient(45deg, #000000, #000000c4);
+}
+.card img {
+  width: 70px;
+  color: #2e2e2e;
+}
+.card-btn {
+  margin-top: 20px;
+  padding: 13px 20px;
+  outline: none;
+  background-color: #1c1b1b;
+  border-radius: 3px;
+  border: none;
+  color: white;
+}
+.card-container {
+  display: flex;
+  justify-content: space-around;
 }
